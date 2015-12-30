@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "Helloworld"
+  s.name         = "HelloWorld"
   s.version      = "1.0.1"
-  s.summary      = "A short description of Helloworld."
+  s.summary      = "Simple to print some information."
   s.homepage     = "http://blog.csdn.net/skylin19840101"
-  s.license      = "MIT (example)"
-  s.author             = { "skylinbaiyi" => "skylin_baiyi@126.com" }  
+  s.license      = {"type": "Copyright","text": "Copyright 2015 126.com. All rights reserved.\n"}
+  s.author       = { "skylinbaiyi" => "skylin_baiyi@126.com" }  
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/skylinbaiyi/HelloWorld.git", :tag => "1.0.1" }
   s.source_files  = "HelloWorld", "HelloWorld/*.{h,m}"
