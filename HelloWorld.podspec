@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = {"type": "Copyright","text": "Copyright 2015 126.com. All rights reserved.\n"}
   s.author       = { "skylinbaiyi" => "skylin_baiyi@126.com" }  
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/skylinbaiyi/HelloWorld.git", :tag => "1.0.1" }
+  s.source       = { :http => "https://github.com/skylinbaiyi/HelloWorld.git", :tag => "1.0.1" }
   s.source_files  = "HelloWorld", "HelloWorld/*.{h,m}"
  
   # s.framework  = "SomeFramework"
